@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Users, Plus, Play, Trophy, Zap, Crown, Copy, Check } from 'lucide-react';
 
-const API_URL = 'http://localhost:3001';
-const WS_URL = 'ws://localhost:3001';
+const API_URL = 'https://game40-7qs5.onrender.com';
+const WS_URL = 'ws://game40-7qs5.onrender.com';
 
 // Card component
 const Card = ({ card, onClick, disabled, selectable }) => {
@@ -654,4 +654,5 @@ export default function CardGame40() {
       )}
     </div>
   );
+
 }

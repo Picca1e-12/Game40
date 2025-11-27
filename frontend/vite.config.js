@@ -13,4 +13,7 @@ export default defineConfig({
     port: 5173,
     open: true,
   },
+  css: {
+    postcss: './postcss.config.js',
+  }
 });
